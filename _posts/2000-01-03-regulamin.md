@@ -2,15 +2,15 @@
 title: "Regulamin"
 bg: green
 color: black
-fa-icon: notebook
+fa-icon: book
 ---
 
 1. Studencki klaster obliczeniowy (dalej: klaster) jest dostępny do użytku pracowników i studentów ze wszystkich jednostek należących do Konsorcjum Wrocławskie Centrum Biotechnologii.
-2. W celu uzyskania uzyskania dostępu do klastra należt skontaktować się z [przewodniczącym Doktoranckiego Koła Bioinformatyki](mailto:michalburdukiewicz@gmail.com). W zgłoszeniu należy podać: 
+2. W celu uzyskania uzyskania dostępu do klastra należy skontaktować się z [przewodniczącym Doktoranckiego Koła Bioinformatyki](mailto:michalburdukiewicz@gmail.com). W zgłoszeniu należy podać: 
 * imię i nazwisko, 
 * imię i nazwisko opiekuna naukowego (tylko w przypadku projektów studenckich),
 * afiliację (w przypadku studenta afiliację opiekuna naukowego),
-* krótki opis projektu (ok. 200-300 znaków),
+* krótki opis projektu (ok. 200-300 znaków) w języku polskim i angielskim,
 * potrzebną liczbę rdzeni 
 * przewidywany czas obliczeń. 
 3. W przypadku dużego obłożenia klastra administracja rodziela zasoby obliczeniowe klastra między zgłoszone projekty zgodnie z zasadą pierwszeństwa.
