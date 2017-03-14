@@ -11,4 +11,4 @@ Klaster tworzą serwer i węzły o następujących parametrach:
 * serwer: procesor i7-920 (4 rdzenie, taktowanie 2.67 GHz), pamięć RAM 8GB, dysk 1 TB,
 * węzły: procesor i5-3470 (160 rdzeni, taktowanie 3.20 GHz), pamięć RAM 4 GB DDR3, dysk 300 GB.
 
-Zainstalowany system operacyjny to Ubuntu 16.04 (LTS). Oprogramowanie może być doinstalowywane wyłącznie przez administratora klastra. Użycie technologii [Docker](https://www.docker.com/) podczas obliczeń na klastrze nie jest w tej chwili możliwe.
+Zainstalowany system operacyjny to Ubuntu 16.04 (LTS). Oprogramowanie może być doinstalowywane wyłącznie przez administratora klastra.
