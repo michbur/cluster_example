@@ -6,3 +6,6 @@ Przykładowe skrypty do studenckiego klastra obliczeniowego na Wydziale Biotechn
 
 Projekty realizowane z wykorzystaniem studenckiego klastra obliczeniowego:
 
+ - [Zróżnicowane użycie kodonów synonimicznych](https://github.com/michbur/cluster_example/tree/master/projects/project001)
+ 
+

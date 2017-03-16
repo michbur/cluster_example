@@ -1,0 +1,29 @@
+#!/bin/bash
+
+
+export sciezka=`pwd`
+
+#echo $sciezka
+
+licznik=5
+while [ ${licznik} -le 85 ]
+do
+seed=1
+while [ $seed -le 10 ]
+
+do
+cp ${sciezka}/skrypt_programu  ${sciezka}/ChlorophyceanMitochondrialCode_seed${seed}/wyniki/
+cd ${sciezka}/ChlorophyceanMitochondrialCode_seed${seed}/wyniki
+
+./skrypt_programu morton ${licznik} ${seed} 
+
+
+seed=$(($seed+1))
+done
+
+licznik=$((licznik+1))
+
+done
+
+
+

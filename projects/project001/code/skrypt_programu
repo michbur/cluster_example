@@ -1,0 +1,49 @@
+#!/bin/bash
+
+
+cat <<EOF | qsub -r n
+#!/bin/bash --login
+#PBS -q batch
+#PBS -l mem=1000MB
+#PBS -l nodes=1:ppn=4
+#PBS -N $1
+#PBS -M mw
+
+
+export OPENBLAS_NUM_THREADS=4
+export CURRDIR=`pwd`
+
+l=${2}
+j=SYMULACJA_7_seed${3}_${2}
+
+
+dir=\${CURRDIR}/\${j}
+#echo $dir
+
+if [ ! -e \$dir ]
+then
+    mkdir \$dir
+fi
+cd \$dir
+touch Hostname
+cat \$PBS_NODEFILE >> Hostname
+
+mkdir -p  /scratch/$USER/\${j}
+cd  /scratch/$USER/\${j}
+
+cp \${CURRDIR}/morton  ./
+cp \${CURRDIR}/ChlorophyceanMitochondrialCode ./
+cp \${CURRDIR}/Grantham.txt ./
+
+./morton \${l}
+
+cd \${CURRDIR}
+
+##### MOŻNA SKOMPRESOWAĆ PLIKI WYNIKOWE !
+cp -r -p /scratch/$USER/\${j} ./
+rm -r /scratch/$USER/\${j} 
+
+
+EOF
+
+
