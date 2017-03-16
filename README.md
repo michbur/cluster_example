@@ -1,11 +1,11 @@
 <a href="http://www.uni.wroc.pl/">
   <img src="http://www.biotech.uni.wroc.pl/wp-content/themes/wizjo-new/img/logo-uwr.png">
 </a>
-
+&emsp;
 <a href="http://www.biotech.uni.wroc.pl/">
   <img src="http://www.biotech.uni.wroc.pl/wp-content/themes/wizjo-new/img/logo-biot.png">
 </a>
-
+&emsp;
 <a href="http://know.wroc.pl/">
   <img src="http://know.wroc.pl/wp-content/uploads/2014/08/LogoKnow.png">
 </a>
