@@ -44,7 +44,6 @@ echo "begin_task="`date +%Y/%m/%d/%H/%M` >> ./STAT
 $MY_PROGRAM \${l}
 
 echo "end_task="`date +%Y/%m/%d/%H/%M` >> ./STAT
-cat ./STAT | mail -s "${1}" klaster-admin 
 ### end STAT
 
 cd /scratch/$USER
